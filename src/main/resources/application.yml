@@ -1,0 +1,22 @@
+server:
+    port: 80
+#    ssl:
+#        key-store: classpath:4921056_1haokx.com.pfx
+#        key-store-password: 0PcWo8ce
+#        keyStoreType: PKCS12
+    tomcat:
+        uri-encoding: utf-8
+
+spring:
+    profiles:
+        active: dev
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
+
+# 是否开启swagger
+springfox:
+    documentation:
+        swagger-ui:
+            enabled: true
+
